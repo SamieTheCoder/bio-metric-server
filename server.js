@@ -10,7 +10,7 @@ const errorHandler = require("./middleware/errorHandler");
 const app = express();
 
 // ✅ Render dynamically assigns a port. Use it or default to 10000.
-const PORT = process.env.PORT || 10000;
+const PORT = process.env.PORT || 3000;
 
 // ✅ Bind to 0.0.0.0 so Render can reach the app.
 const HOST = "0.0.0.0";
